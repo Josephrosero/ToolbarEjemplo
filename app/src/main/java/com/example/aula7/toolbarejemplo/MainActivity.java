@@ -40,11 +40,6 @@ public class MainActivity extends AppCompatActivity {
         return super.onCreateOptionsMenu(menu);
     }
 
-    public  void  showPantalla (){
-        Intent ListSong = new Intent(getApplicationContext(),Main2Activity.class);
-        startActivity(ListSong);
-
-    }
 
 
     @Override
@@ -54,4 +49,11 @@ public class MainActivity extends AppCompatActivity {
 
         return super.onOptionsItemSelected(item);
     }
+
+    public  void  showPantalla (){
+        Intent ListSong = new Intent(getApplicationContext(),Main2Activity.class);
+        startActivity(ListSong);
+
+    }
+
 }
